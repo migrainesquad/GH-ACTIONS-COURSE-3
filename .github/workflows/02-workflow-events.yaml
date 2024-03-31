@@ -1,4 +1,4 @@
-name: 01 - Show events
+name: 02 - Show events
 
 on: 
   push:
