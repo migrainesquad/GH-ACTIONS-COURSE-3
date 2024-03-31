@@ -14,8 +14,8 @@ jobs:
     steps: 
       - name: Say Drink
         run: |
-            echo "I will fail"
-            exit 1
+            echo "I will SUCCEED!"
+            exit 0
       - name: Say Goodbye
         run: echo "Goodbye!"
 
