@@ -31,9 +31,9 @@ jobs:
           echo "Overwritten: ${{ env.OVERWRITTEN }}"
       - name: Overwrite job variable
         env:
-          OVERWRITTEN: 'I have been overwritten at the step level'
+          OVERWRITTEN: 'I have been overwritten at the step level and YOU ROCK!'
         run: |
-          echo "Step env this is a comment yeah var: ${{ env.OVERWRITTEN }}"
+          echo "Step env this is the latest work effort: ${{ env.OVERWRITTEN }}"
   # echo2:
   #   runs-on: ubuntu-latest
   #   steps:
