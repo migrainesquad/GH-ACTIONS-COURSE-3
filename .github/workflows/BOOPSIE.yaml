@@ -1,0 +1,14 @@
+# See 04-using-actions/README.md for more information
+# about using actions within workflows.
+
+name: BOOPSIE
+
+on: workflow_dispatch
+
+jobs: 
+  echo-hello:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Howdy Doctor Nick
+        run: echo "Hi, Doctor Nick!  Whazzup?  Yes?"
+
