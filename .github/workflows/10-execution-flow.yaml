@@ -11,10 +11,10 @@ on:
     #     type: boolean
     #     description: Whether unit tests will pass or not
     #     default: true
-
 jobs:
   lint-build:
     runs-on: ubuntu-latest
+    continue-on-error: true
     steps:
       - name: Lint and build
         run: echo "Linting and building project - HUBBA-HUBBA!"
